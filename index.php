@@ -34,14 +34,14 @@ $menu_items = [
         }
         .slider {
             width: 100%;
-            height: 300px;
-            overflow: hidden;
+            height: 400px;
+            overflow: show;
             position: relative;
-            background-color: #333;
+            background-color: black;
         }
         .slider img {
             width: 30%;
-            height: 0%;
+            height: 100%;
             object-fit: cover;
             animation: slide 30s infinite;
         }
