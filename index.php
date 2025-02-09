@@ -33,7 +33,7 @@ $menu_items = [
             color: #ff6347;
         }
         .slider {
-            width: 10%;
+            width: 100%;
             height: 300px;
             overflow: hidden;
             position: relative;
