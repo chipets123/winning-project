@@ -35,9 +35,9 @@ $menu_items = [
         .slider {
             width: 100%;
             height: 400px;
-            overflow: show;
+            overflow: hidden;
             position: relative;
-            background-color: black;
+            background-color: #333;
         }
         .slider img {
             width: 30%;
@@ -45,13 +45,70 @@ $menu_items = [
             object-fit: cover;
             animation: slide 30s infinite;
         }
-        @keyframes slide {
-            0% {transform: translateX(-100);}
-            25% {transform: translateX(-200%);}
-            50% {transform: translateX(-300%);}
-            75% {transform: translateX(-400%);}
-            100% {transform: translateX(0);}
-        }
+        @keyframes slider {
+
+0% {
+    left: 0;
+}
+
+20% {
+    left: 0;
+}
+
+25% {
+    left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+    left: -200%;
+
+}
+
+70% {
+    left: -200%;
+}
+
+75% {
+    left: -300%;
+}
+
+95% {
+    left: -300%;
+}
+
+100% {
+    left: -400%;
+
+}
+
+}
+
+#slider {
+    overflow: hidden;
+
+}
+
+#slider figure img {
+    width:20%;
+    float: left;
+
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite; 
+
+}
         .grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
