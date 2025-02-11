@@ -89,7 +89,7 @@ $menu_items = [
         <img src="https://media.istockphoto.com/id/459396345/photo/taco.jpg?b=1&s=612x612&w=0&k=20&c=wDLMWoljNsyoKKYUYyMjSZxIJ5BaX0dKyAVIF4wueA4=" alt="Tacos Lovers">
         <img src="https://img.freepik.com/premium-photo/french-fries-portionxaxa_575980-34546.jpg?ga=GA1.1.112714775.1738649949&semt=ais_incoming" alt="Fresh Fries">
         <img src="https://img.freepik.com/free-photo/pizza-with-ham-mushrooms-olives_2829-10324.jpg?ga=GA1.1.112714775.1738649949&semt=ais_incoming" alt="Pizza Time">
-        <img src="https://img.freepik.com/premium-photo/ultimate-birthday-dessert-creation_1267495-9203.jpg?ga=GA1.1.112714775.1738649949&semt=ais_incoming" alt="Delicious Drinks">
+        <img src="https://img.freepik.com/premium-photo/ultimate-birthday-dessert-creation_1267495-9203.jpg?ga=GA1.1.112714775.1738649949&semt=ais_incoming" alt="Refreshing Drinks">
     </div>
 
     <!-- Menu Grid -->
